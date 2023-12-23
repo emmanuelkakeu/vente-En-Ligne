@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page de login</title>
+    <link rel="stylesheet" href="pagelog.css">
+    <script src="login.js"></script>
+    
+</head>
+<body >
+   
+        <div class="contenu">
+            <h1>use login</h1>
+            <form action="PlateFormeVente.html" name="form" class="form" method="post" onsubmit="return validateform()"> 
+                <div class="email"> votre adresse email</div>
+                <input autocomplete="off" type="email" placeholder="e-mail" name="email"><br>
+                <div id="emailerror">veuillez renseigner une email ou numero de tel valide</div><br>
+                <div class="passeword">mot de passe</div>
+                <input type="password" placeholder="password" name="password"><br>
+                <div id="passerror">veuillez renseigner un mot de passe  valide</div><br>
+                <button class="btn btn-primary" type="submit">se connecter</button>
+            </form>
+        </div>
+</body>
+</html>

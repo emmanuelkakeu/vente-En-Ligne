@@ -1,0 +1,108 @@
+
+body{  
+    width: auto;
+    background-color: gray;
+
+     
+}
+
+.categ {
+    text-align: center;
+    margin: 65PX 100PX;
+    border: solid blueviolet;
+    border-radius: 10PX;
+    background-color: bisque;
+    font-family: Verdana, Geneva 
+    
+}
+.footer {
+    top:0;
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+
+}  
+.menu {
+    display: flex;
+    margin-left: 500px;
+    margin-right: 150PX;
+    justify-content: space-between;
+} 
+menu a {
+    
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+   
+    
+}
+p {
+    font-size: 20px;
+    font-style: italic ;
+    text-transform: capitalize;
+}
+label {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.fruits {
+    margin-top: 5px;
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+.fruit {
+    padding: 0 40PX;
+    margin-bottom: 25PX;
+    border-radius: 20PX;
+}
+.fruits img {
+    background-color: azure;
+    border-radius: 20PX;
+}
+.legumes img {
+    background-color: azure;
+    border-radius: 20PX;
+}
+.cuisines img {
+    background-color: azure;
+    border-radius: 20PX;
+}
+.legumes {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.legume {
+    padding: 0 40PX;
+    padding-bottom: 25px;
+}
+.cuisines {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuisine {
+    padding: 0 40PX;
+    margin-bottom: 25px;
+}
+#fiel {
+    margin: 30PX 0PX;
+    font-size: 20PX;
+}
+
+
+.button {
+    margin: 30PX;
+    padding: 5PX 40PX;
+    font-weight: 900;   
+}
+.button:hover {
+   background-color : orangered  
+}

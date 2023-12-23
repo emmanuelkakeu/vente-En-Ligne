@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ma plate forme de vente</title>
+    <link rel="stylesheet" defer href="vente.css" >
+    <script src="vente.js"></script>
+</head>
+<body>
+    <footer>
+        <div class="footer">
+            <ul class="menu">
+                <a href="#">accueil</a>
+                <a href="#">a propos</a>
+                <a href="#">contact</li></a>
+
+            </ul>
+        </div>
+    </footer>
+    <section class="categ">
+        
+        <form  id="myform" name="myform"  onsubmit=" return validateForm();">
+            <label for="fiel" >Nom du client :</label>
+            <input type="text" id="fiel" name="fiel"  placeholder="Entrer votre nom">
+            <section class="categA" id="categA" name="categA"> 
+                <div class="fruits" id="1" name="fruit" value="fruit">
+                    <span class="fruit">
+                        <input class="check" type="checkbox" id="banane" name="banane" value="banane">
+                        <img style="border-radius: 15px;" height="200" width="200px" src="img vente\banane.webp" alt="banane"><br>
+                        <p>favorise la sensation de satiete </p>
+                        <label for="banane">banane | 100 FCFA</label>
+                    </span>
+                    <span class="fruit">
+                        <input class="check" type="checkbox" id="avocat" name="avocat" value="avocat">
+                        <img height="200" width="200px" src="img vente\avocat.jfif" alt="avocat"><br>                   
+                        <p>riche en nutriment</p>
+                        <label for="avocat">avocat | 250 FCFA</label>
+                    </span>
+                    <span class="fruit">
+                        <input class="check" type="checkbox" id="papaye" name="papaye" value="papaye">
+                        <img height="200" width="200px" src="img vente\papaye.jpg" alt="papaye"><br>                   
+                        <p>tres peu calorique</p>
+                        <label for="papaye">papaye | 300 FCFA</label>
+                    </span><br>
+                    <span class="fruit">
+                        <input class="check" type="checkbox" id="ananas" name="ananas" value="ananas">
+                        <img height="200" width="200px" src="img vente\ananas.jfif" alt="ananas"> <br>                 
+                        <p>ameliore la digestion</p>
+                        <label for="ananas">ananas | 250 FCFA</label>
+                    </span>
+                    <span class="fruit">
+                        <input class="check" type="checkbox" id="pasteque" name="pasteque" value="pasteque">
+                        <img height="200" width="200px" src="img vente\pasteque.jfif" alt="pasteque"><br>                  
+                        <p>contribut a la sante des yeux</p>
+                        <label for="pasteque">pasteque | 500 FCFA</label>
+                    </span>
+                    <span class="fruit">
+                        <input class="check" type="checkbox" id="goyave" name="goyave" value="goyave">
+                        <img height="200" width="200px" src="img vente\goyave.jfif" alt="goyave"><br>                   
+                        <p>soulage les douleures dentaire</p>
+                        <label for="goyave">goyave | 50 FCFA</label>
+                    </span>
+                </div>
+            </section>
+            <section class="categB" id="categB" name="categB">
+                <div class="legumes" id="legume" name="legume" value="legume">
+                    <span class="legume">
+                        <input class="check" type="checkbox" id="maiis" name="maiis" value="maiis">
+                        <img height="200" width="200px" src="img vente\maiis.jfif" alt="maiis"><br>
+                        <p>teneur eleve en vitamine a</p>                   
+                        <label for="maiis">maiis | 200</label>
+                    </span>
+                    <span class="legume">
+                        <input class="check" type="checkbox" id="concombre" name="concombre" value="concombre">
+                        <img height="200" width="200px" src="img vente\concombre.jfif" alt="concombre"><br>
+                        <p>soulage les douleures articulaires</p>                  
+                        <label for="concombre">concombre | 200</label>
+                    </span>
+                    <span class="legume">
+                        <input class="check" type="checkbox" id="tomate" name="tomate" value="tomate">
+                        <img height="200" width="200px" height="150px" src="img vente\tomate.jfif" alt="tomate"><br>
+                        <p>renforce la vue et les os</p>                
+                        <label for="tomate">tomate | 25</label>
+                    </span>
+                    <span class="legume">
+                        <input class="check" type="checkbox" id="ognon" name="ognon" value="ognon">
+                        <img height="200" width="200px" src="img vente\ognon.jfif" alt="ognon"><br>
+                        <p>soulage en cas d'infection urinaire</p>                  
+                        <label for="ognon">ognon | 50</label>
+                    </span>
+                    <span class="legume">
+                        <input class="check" type="checkbox" id="ail" name="ail" value="ail">
+                        <img height="200" width="200px" src="img vente\ail.jfif" alt="ail"><br>
+                        <p>lutte contre toute forme de cancer</p>                 
+                        <label for="ail">ail | 100</label>
+                    </span>
+                    <span class="legume">
+                        <input class="check" type="checkbox" id="citron" name="citron" value="citron">
+                        <img height="200" width="200px" src="img vente\citron.jfif" alt="citron"><br>
+                        <p>bouste le system immunitaire</p>                 
+                        <label for="citron">citron | 25</label>
+                    </span>
+                </div>
+            </section>
+            <section class="categC" id="categC" name="categC">
+                <div class="cuisines" id="cuisine" name="cuisine">
+                    <span class="cuisine">
+                        <input class="check" type="checkbox" id="assiete" name="assiete" value="assiete">
+                        <img height="200" width="200px" src="img vente\assiete.jpg" alt="assiete">
+                        <p>bonne qualite bon prix</p>                  
+                        <label for="assiete">assiete | 500 FCFA</label>
+                    </span>
+                    <span class="cuisine">
+                        <input class="check" type="checkbox" id="casserole" name="casserole" value="casserole">
+                        <img height="200" width="200px" src="img vente\casserole.jpg" alt="casserole">
+                        <p>services impecable</p>                   
+                        <label for="casserole">casserole | 2500 FCFA</label>
+                    </span>
+                    <span class="cuisine">
+                        <input class="check" type="checkbox" id="louche" name="louche" value="louche">
+                        <img height="200" width="200px" src="img vente\louche.jpg" alt="louche">
+                        <p>indispensable en cuisine</p>                   
+                        <label for="louche">louche | 250 FCFA</label>
+                    </span>
+                    <span class="cuisine">
+                        <input class="check" type="checkbox" id="pouelle" name="pouelle" value="pouelle">
+                        <img height="200" width="200px" src="img vente\pouelle.jpg" alt="pouelle"><br>
+                        <p>cuisiner rapidement</p>                   
+                        <label for="pouelle">pouelle | 1000 FCFA</label>
+                    </span>
+                    <span class="cuisine">
+                        <input class="check" type="checkbox" id="tablier" name="tablier" value="tablier">
+                        <img height="200" width="200px" src="img vente\tablier.jpg" alt="tablier"><br>
+                        <p>cuisiner en securite</p>                
+                        <label for="citron">tablier | 500 FCFA</label><br>
+                    </span>
+                </div>
+            </section>
+            <button class="button"  type="submit" >Envoyer</button>
+        </form>
+    </section>
+</body>
+</html>

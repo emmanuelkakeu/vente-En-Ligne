@@ -1,0 +1,57 @@
+body{
+    
+    background: url(img6.jpg) fixed 50% 50% ;
+    background-size: cover;
+
+}
+.contenu {
+    background-color: wheat;
+   width: 380PX;
+   height: 300PX;
+   padding: 40px ;
+   margin: 50PX 450PX; 
+}
+input {
+   width: 75%;
+   padding: 10PX 30PX;
+   margin: 1PX 0px;
+   border-radius: 10PX;
+}
+button{
+    font-size: 15PX;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 4PX;
+    margin-left: 90PX;
+}
+.form{
+    margin-left: 30PX;
+    font-family: Georgia, serif; 
+}
+h1{
+    color: green;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.form #passerror {
+    border: solid 1PX;
+    color: #c62828;
+    text-align: center;
+    border-radius: 5PX;
+    background: rgba(255,0,0,0.1);
+    display: none;
+
+}
+.form #emailerror {
+    border: solid 1PX;
+    color: #c62828;
+    text-align: center;
+    border-radius: 5PX;
+    background: rgba(255,0,0,0.1);
+    display: none;
+
+}
+.email , .passeword {
+    font-size: 20PX;
+}
